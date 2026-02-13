@@ -56,4 +56,4 @@ I would love to focus more on other React hooks - useMemo, useContext and genera
 
 ## Author
 
-- Frontend Mentor - [@emirmarles](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@EmirMarles](https://www.frontendmentor.io/profile/EmirMarles)
