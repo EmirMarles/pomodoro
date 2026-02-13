@@ -1,0 +1,62 @@
+.buttons-container {
+    border-radius: 50px;
+    background-color: rgb(22, 25, 50);
+    /* color: rgb(215, 224, 255); */
+    /* width: 44%; */
+    width: 31rem;
+    margin-top: 1rem;
+}
+
+.buttons-container-small {
+    border-radius: 50px;
+    background-color: rgb(22, 25, 50);
+    width: 22rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons-container-small .btn {
+    margin: 0.5rem 0rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 0px;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    color: rgba(215, 224, 255, 0.5);
+    font-weight: 500;
+    margin-right: 0;
+}
+
+.buttons-container-small .chosen-btn {
+    background-color: var(--app-color);
+    color: var(--dark-blue);
+}
+
+.btn {
+    margin: 0.5rem 0rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 0px;
+    padding: 1.2rem 2.5rem;
+    font-size: 1rem;
+    color: rgba(215, 224, 255, 0.5);
+    font-weight: 500;
+}
+
+.btn:nth-child(1) {
+    /* border: 2px solid red; */
+    margin-left: 0rem;
+}
+
+.btn:nth-child(3) {
+    margin-right: 0rem;
+}
+
+.chosen-btn {
+    background-color: var(--app-color);
+    color: var(--dark-blue);
+}
+
+.btn:hover {
+    cursor: pointer;
+}

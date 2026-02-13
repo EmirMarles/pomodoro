@@ -1,0 +1,10 @@
+.progress-track {
+  stroke: transparent; /* Color of the empty part */
+}
+
+.progress-indicator {
+  stroke: var(--app-color); /* Color of the progress */
+  transition: stroke-dashoffset 0.5s ease-in-out;
+  transform: rotate(-90deg); /* Start the progress from the top */
+  transform-origin: center;
+}

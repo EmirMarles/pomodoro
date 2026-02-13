@@ -1,0 +1,7 @@
+.settings{
+    margin-top: 3rem;
+}
+
+.settings-btn:hover{
+    cursor: pointer;
+}

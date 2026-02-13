@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(30, 33, 63);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  --dark-blue : rgb(30, 33, 63);
+  --red-color: rgb(248, 112, 112);
+  --cyan-color : rgb(112, 243, 248);
+  --purple-color : rgb(216, 129, 248);
+
+
+  --circle-height: 3rem;
+  --circle-width: 3rem;
+
+  --roboto : 'Roboto Slab', sans-serif;
+  --kumbh : 'Kumbh Sans', sans-serif;
+  --mono: 'Space Mono', monospace;
+
+  --main-font: 'Roboto Slab', sans-serif;
+  --app-color: rgb(248, 112, 112);
+
+  font-family: var(--main-font);
+}
+
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url();
+}

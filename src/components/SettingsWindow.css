@@ -1,0 +1,157 @@
+.settings-window {
+    position: absolute;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.settings-header h1 {
+    margin: 0.5rem;
+    margin-left: 0rem;
+}
+
+.settings-header img:hover {
+    cursor: pointer;
+}
+
+.time-settings {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+
+    padding-bottom: 1rem;
+}
+
+.time-settings h4 {
+    width: 85%;
+    margin: 0.5rem;
+    margin-left: 0rem;
+    text-align: left;
+}
+
+.time-toggle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.font-settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    width: 85%;
+
+    padding-bottom: 1rem;
+}
+
+.font-settings h4 {
+    width: 55%;
+    text-align: left;
+}
+
+.color-settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.color-settings h4 {
+    width: 55%;
+    text-align: left;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+.colors div {
+    border-radius: 50vw;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+
+.red {
+    background-color: var(--red-color);
+}
+
+.blue {
+    background-color: var(--cyan-color);
+}
+
+.purple {
+    background-color: var(--purple-color);
+}
+
+.font-choose {
+    color: black;
+    background-color: rgb(239, 241, 250);
+}
+
+.chosen {
+    color: white;
+    background-color: var(--dark-blue);
+}
+
+.colors div:hover {
+    cursor: pointer;
+}
+
+.time-choosing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgb(239, 241, 250);
+    border-radius: 10px;
+    padding: 0.7rem 1.3rem;
+}
+
+.time-choosing p {
+    margin: 0;
+}
+
+.up-down {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.up-down img:hover {
+    cursor: pointer;
+}
+
+.pomodoro p {}
+
+.header-pomodoro {
+    text-align: left;
+    color: grey;
+    margin: 0;
+    margin-bottom: 0.4rem;
+}

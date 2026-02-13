@@ -1,0 +1,77 @@
+.pomodoro-timer {
+    border-radius: 50vw;
+    margin-top: 2rem;
+    width: 19rem;
+    height: 19rem;
+    background-color: rgb(46, 50, 90);
+
+    /* gradient between 
+         rgb(46, 50, 90);
+         and
+         rgb(14, 17, 42)
+    */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: -15px -15px 40px 0px rgba(215, 224, 255, 0.1);
+    position: relative;
+    background-image: linear-gradient(to right, rgb(14, 17, 42), rgb(46, 50, 90));
+}
+
+.pomodoro-timer:hover {
+    cursor: pointer;
+}
+
+.inner-circle {
+    border-radius: 50vw;
+    width: 17rem;
+    height: 17rem;
+    background-color: rgb(22, 25, 50);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    border: 8px solid rgb(248, 112, 100);
+    border-radius: 50vw;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px; */
+}
+
+.timer {}
+
+.time {
+    font-size: 4.2rem;
+    margin: 0rem;
+}
+
+.timer p {
+    margin: 0;
+}
+
+.bar {
+    position: absolute;
+}
+
+.progress-svg {
+    position: absolute;
+    top: 8.2%;
+}
+
+.pause {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.5rem;
+}
